@@ -5,10 +5,14 @@
 #
 
 # Name of this project
-name: resume-template
+name: resume
 
 email:
   support: support@hadenlabs.com
+
+confluence:
+  space: Resume
+  title: Project
 
 # Logo for this project
 #logo: docs/logo.png
@@ -17,22 +21,22 @@ email:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/resume-template
+github_repo: omarhermenegildo/resume
 
 # Badges to display
 badges:
-  - name: GitHub release
-    image: https://img.shields.io/github/release/hadenlabs/resume-template?style=flat-square
-    url: https://github.com/hadenlabs/resume-template/releases/latest
+  - name: Latest Release
+    image: https://img.shields.io/github/release/omarhermenegildo/resume
+    url: https://github.com/omarhermenegildo/resume/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/resume-template/lint-code
-    url: https://github.com/hadenlabs/resume-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/omarhermenegildo/resume/lint-code
+    url: https://github.com/omarhermenegildo/resume/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
-  - name: KeepAChangelog
-    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
-    url: https://keepachangelog.com
 
 # Short description of this project
 description: |-
@@ -40,9 +44,9 @@ description: |-
 
 # Bulleted features to display
 features:
-  - "Easy to be further customized or extended"
-  - "Full support for unicode characters"
-  - "FontAwesome 5 support"
+  - 'Easy to be further customized or extended'
+  - 'Full support for unicode characters'
+  - 'FontAwesome 5 support'
 
 references:
   - name: 'billryan resume'
@@ -51,7 +55,8 @@ references:
 
 requirements: |-
 
-  This is a list of applications that need to be installed previously to enjoy all the goodies of this configuration:
+  This is a list of applications that need to be installed previously
+  to enjoy all the goodies of this configuration:
 
   - [Pyenv](https://github.com/pyenv/pyenv)
   - [Docker](https://www.docker.com/)
@@ -59,7 +64,5 @@ requirements: |-
 # How to use this project
 usage: |-
   ```bash
-
-    make xelatex.resume
-
+  task xelatex.resume
   ```
