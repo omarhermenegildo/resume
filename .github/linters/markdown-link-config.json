@@ -1,8 +1,11 @@
 {
-  "baseUrl": "https://github.com/hadenlabs/resume-template",
+  "baseUrl": "https://github.com/omarhermenegildo/resume",
   "ignorePatterns": [
     {
       "pattern": "^https://hadenlabs.com"
+    },
+    {
+      "pattern": "^https://github.com/omarhermenegildo/resume/compare"
     }
   ],
   "replacementPatterns": [
