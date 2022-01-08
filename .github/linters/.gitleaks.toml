@@ -190,6 +190,7 @@ title = "gitleaks config"
             '''xxx@luismayta.me''',
             '''adrien+dev@schischi.me''',
             '''yuanbin2014@gmail.com''',
+            '''omar.hermenegildo@gmail.com''',
         ]
 
 [[rules]]
